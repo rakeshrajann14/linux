@@ -38,6 +38,7 @@ id rajesh                      # Show user IDs and groups
 sudo groupadd nautilus_noc     # Create a group
 sudo adduser rajesh            # Create a user
 sudo usermod -g nautilus_noc rajesh  # Set primary group
+sudo usermod -s /sbin/nologin ammar     # Disable interactive login
 ```
 
 **Remember:**
@@ -45,3 +46,5 @@ sudo usermod -g nautilus_noc rajesh  # Set primary group
 - `-g` — Set the user's primary group.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
