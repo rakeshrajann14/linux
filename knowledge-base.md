@@ -39,6 +39,8 @@ sudo groupadd nautilus_noc     # Create a group
 sudo adduser rajesh            # Create a user
 sudo usermod -g nautilus_noc rajesh  # Set primary group
 sudo usermod -s /sbin/nologin ammar     # Disable interactive login
+sudo adduser -e 2027-02-17 siva         # Set account expiry date
+sudo chage -l siva                      # View account aging details
 ```
 
 **Remember:**
