@@ -27,8 +27,21 @@ sudo usermod -d /var/www/kirsty kirsty   # Change home path
 sudo usermod -d /var/www/kirsty -m kirsty # Change path and move files
 ```
 
-**Remember:** `-u` = UID; `-d` = home directory; `-m` = move existing home contents.
-
-**Important:** Changing a UID can leave existing files owned by the old UID. Changing the home path without `-m` does not move files.
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+### Group Management
+
+```bash
+cat /etc/group                 # List groups
+id rajesh                      # Show user IDs and groups
+sudo groupadd nautilus_noc     # Create a group
+sudo adduser rajesh            # Create a user
+sudo usermod -g nautilus_noc rajesh  # Set primary group
+```
+
+**Remember:**
+- `/etc/group` — Group information.
+- `-g` — Set the user's primary group.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
