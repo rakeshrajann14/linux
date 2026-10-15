@@ -20,3 +20,4 @@
 - How do you create a group?
 - How do you create a user?
 - How do you change a user's primary group?
+- How do you prevent a user from interactive login?
