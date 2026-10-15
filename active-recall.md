@@ -20,4 +20,6 @@
 - How do you create a group?
 - How do you create a user?
 - How do you change a user's primary group?
-- How do you prevent a user from interactive login?
+- How do you prevent a user from interactive login? / verify
+- How do you set an account expiry date?
+- How do you check account aging details?
